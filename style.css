@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 500px;
+  justify-self: center;
+}
+
+.container div{
+  width: 100px;
+  height: 100px;
+}
