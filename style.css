@@ -1,12 +1,56 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Lavishly+Yours&display=swap');
+
+
+body{
+  text-align: center;
+  font-family: cursive;
+}
+
+.flex{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  max-width: 500px;
+}
+
+.container{
+  max-width: 1000px;
+  max-height: 500px;
   justify-self: center;
+  background-color: antiquewhite;
 }
 
 .container div{
   width: 100px;
   height: 100px;
+}
+
+.logo{
+  width: 170px;
+  justify-self: center;
+  font-family: "Lavishly Yours", sans-serif;
+  background: linear-gradient(90deg,rgba(43, 111, 112, 1) 0%, 
+    rgba(134, 111, 112, 1) 50%, rgba(237, 111, 112, 1) 100%);
+  color: transparent;
+  background-clip: text;
+  
+}
+
+.user-input{
+  gap: 20px;
+  font-size: medium;
+}
+
+.enter{
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgba(43, 111, 112, 0.9);
+  color: white;
+  font: inherit;
+  font-weight:bold;
+  border: 0;
+}
+
+button:hover{
+  background-color: rgba(43, 111, 112, 1);
+  cursor: pointer;
 }
