@@ -3,6 +3,12 @@ const userInput = document.querySelector('input')
 const btn = document.querySelector('.enter')
 
 btn.addEventListener('click',makeGrid)
+console.log(userInput)
+userInput.addEventListener('keypress', e =>{
+  if (e.key === 'Enter'){
+    makeGrid()
+  }
+})
 
 let opacity = 5
 let rows=5, colums = 6

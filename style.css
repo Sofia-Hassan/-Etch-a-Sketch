@@ -25,6 +25,8 @@ body{
 }
 
 .logo{
+  margin: 0;
+  padding: 0;
   width: 170px;
   justify-self: center;
   font-family: "Lavishly Yours", sans-serif;
@@ -36,6 +38,8 @@ body{
 }
 
 .user-input{
+  margin-top: 0;
+  margin-bottom: 7px;
   gap: 20px;
   font-size: medium;
 }
