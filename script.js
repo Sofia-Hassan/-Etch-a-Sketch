@@ -42,7 +42,8 @@ function makeGrid(){
     divGrid.firstChild.remove()
   }
   let string = ''
-  string = userInput.value.split('x')
+  string = userInput.value.toLowerCase()
+  string = string.split('x')
   rows = Number(string[0])
   colums = Number(string[1])
   if((isNaN(rows) && isNaN(colums)) || rows==0 || rows>100 || colums==0 || colums>100 ){
