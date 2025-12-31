@@ -16,7 +16,7 @@ body{
   max-width: 1000px;
   max-height: 500px;
   justify-self: center;
-  background-color: antiquewhite;
+  background-color: rgba(65, 105, 225, 5%);
 }
 
 .container div{

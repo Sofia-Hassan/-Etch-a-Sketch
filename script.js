@@ -10,7 +10,7 @@ userInput.addEventListener('keypress', e =>{
   }
 })
 
-let opacity = 5
+let opacity = 10
 let rows=5, colums = 6
 
 for(let i=0 ; i < rows*colums ;i++){
@@ -32,9 +32,9 @@ function random(){
 function color(){
   opacity += 5
   if (opacity == 100){
-    opacity = 5
+    opacity = 10
   }
-  return `rgba(${random()},111,112,${opacity}%)`
+  return `rgba(65, 105, 225,${opacity}%)`
 }
 
 function makeGrid(){
