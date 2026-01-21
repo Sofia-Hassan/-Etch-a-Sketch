@@ -58,3 +58,8 @@ button:hover{
   background-color: rgba(43, 111, 112, 1);
   cursor: pointer;
 }
+
+.instrction{
+  color: gray;
+  padding-bottom: 5px;
+}
